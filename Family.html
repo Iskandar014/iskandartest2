@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        /* Global Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            font-size: 2em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Family Grid */
+        .family-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5em;
+        }
+
+        /* Family Member Card */
+        .family-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .family-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            max-width: 150px;
+            margin-bottom: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .family-card h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+        .family-card p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            width: fit-content;
+        }
+        .back-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Family
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Family Grid -->
+        <div class="family-grid">
+
+            <!-- Family Member 1 -->
+            <div class="family-card">
+                <img src="Abah.jfif" alt="Father">
+                <h3>Idris Saad</h3>
+                <p>57 years old</p>
+                <p>Abah</p>
+            </div>
+
+            <!-- Family Member 2 -->
+            <div class="family-card">
+                <img src="Mama.jfif" alt="Mother">
+                <h3>Rusaemah Omar</h3>
+                <p>52 years old</p>
+                <p>Mama</p>
+            </div>
+
+            <!-- Family Member 3 -->
+            <div class="family-card">
+                <img src="Alya.jfif" alt="Sibling">
+                <h3>Nur Isyazana Alya</h3>
+                <p>19 years old</p>
+                <p>Sister</p>
+            </div>
+			
+            <!-- Family Member 4 -->
+            <div class="family-card">
+                <img src="Aziera.jfif" alt="Sibling">
+                <h3>Nur Isyarina Aziera</h3>
+                <p>13 years old</p>
+                <p>Sister</p>
+            </div>
+
+            <!-- Family Member 5 -->
+            <div class="family-card">
+                <img src="Siblings.jfif" alt="Brother">
+                <h3>Muhammad Isyraf Haziq</h3>
+                <p>21 years old</p>
+                <p>Brother</p>
+            </div>
+
+        </div>
+
+        <!-- Back to Homepage Button -->
+        <a href="index.html" class="back-btn">Back to Homepage</a>
+
+    </div>
+
+</body>
+</html>
